@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>GATTACA — Твой код решает</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;600;800&family=Roboto+Mono:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- Статус посетителя -->
+  <div class="status-badge" id="statusBadge">
+    <span class="status-label">ГЕНЕТИЧЕСКИЙ СТАТУС:</span>
+    <span class="status-value" id="statusValue">сканирование...</span>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <div class="dna-bg" aria-hidden="true"></div>
+    <div class="hero-content">
+      <h1 class="hero-title">GATTACA</h1>
+      <p class="hero-subtitle">Твой геном — твой паспорт.<br />Твой пот — твой единственный шанс.</p>
+      <a href="#heroes" class="btn">Войти в систему</a>
+    </div>
+  </header>
+
+  <!-- ГЕРОИ -->
+  <section id="heroes" class="section">
+    <h2 class="section-title">Кто играет по правилам. Кто их ломает.</h2>
+    <div class="cards">
+  <article class="card">
+    <div class="card-img">
+      <img src="" alt="Винсент Фриман" data-img="vincent" />
+      <div class="img-placeholder">Вставь ссылку на фото Винсента</div>
+    </div>
+    <div class="card-tag invalid">IN-VALID</div>
+    <h3>Винсент Фриман</h3>
+    <p class="card-role">«Негодный», купивший личность «годного»</p>
+    <p>Родился с «неполноценным» кодом, но мечтает о космосе. Покупает ДНК Джерома, чтобы доказать: воля сильнее генетики.</p>
+    <blockquote>«Я никогда не оглядывался назад. Мне нечего было оставлять.»</blockquote>
+  </article>
+
+  <article class="card">
+    <div class="card-img">
+      <img src="" alt="Айрин Кассини" data-img="irene" />
+      <div class="img-placeholder">Вставь ссылку на фото Айрин</div>
+    </div>
+    <div class="card-tag valid">VALID</div>
+    <h3>Айрин Кассини</h3>
+    <p class="card-role">«Годная», сломленная совершенством</p>
+    <p>Генетически безупречна, но не умеет жить. В Винсенте она видит страсть, которой лишена сама.</p>
+    <blockquote>«Я просто хотела быть идеальной. А оказалось — этого мало.»</blockquote>
+  </article>
+
+  <article class="card">
+    <div class="card-img">
+      <img src="" alt="Антон Фриман" data-img="anton" />
+      <div class="img-placeholder">Вставь ссылку на фото Антона</div>
+    </div>
+    <div class="card-tag valid">VALID</div>
+    <h3>Антон Фриман</h3>
+    <p class="card-role">«Идеальный» брат, проигравший реальность</p>
+    <p>Генетическое превосходство не гарантирует превосходство человеческое. Парадокс системы в одном человеке.</p>
+    <blockquote>«Ты не годен. Но ты победил. Как?»</blockquote>
+  </article>
+
+  <article class="card">
+    <div class="card-img">
+      <img src="" alt="Джером Морроу" data-img="jerome" />
+      <div class="img-placeholder">Вставь ссылку на фото Джерома</div>
+    </div>
+    <div class="card-tag valid">VALID</div>
+    <h3>Джером Морроу</h3>
+    <p class="card-role">«Годный», продавший свою личность</p>
+    <p>Генетически идеален, но сломлен давлением. Продаёт ДНК Винсенту и постепенно теряет себя.</p>
+    <blockquote>«Я дал тебе свой код. Остальное — твоя проблема.»</blockquote>
+  </article>
+
+  <article class="card">
+    <div class="card-img">
+      <img src="" alt="Детектив Хьюго" data-img="detective" />
+      <div class="img-placeholder">Вставь ссылку на фото детектива</div>
+    </div>
+    <div class="card-tag invalid">SYSTEM</div>
+    <h3>Детектив Хьюго</h3>
+    <p class="card-role">Страж системы</p>
+    <p>Расследует «нарушения генетического порядка». Не злодей — винтик системы, который верит, что порядок важнее человека.</p>
+    <blockquote>«Твой код не лжёт. Лжёшь ты.»</blockquote>
+  </article>
+</div>
+
+  <!-- МЫСЛЬ АВТОРА -->
+  <section class="section message">
+    <h2 class="section-title">Что хотел донести автор</h2>
+    <div class="message-box">
+      <p><strong>Генетическая инженерия не уничтожает неравенство — она делает его «научно обоснованным».</strong> Если раньше дискриминация была социальной, то теперь она записана в твоих клетках и кажется объективной.</p>
+      <p>Общество, одержимое совершенством, создаёт людей, которые <em>не умеют жить</em>. Айрин генетически безупречна, но не справляется с давлением. Винсент «неполноценен» по коду, но именно он оказывается самым живым и упорным.</p>
+      <p class="quote-big">«Для одних — идеальный геном. Для других — приговор при рождении.»</p>
+    </div>
+  </section>
+
+  <!-- ИГРА -->
+  <section class="section game-section">
+    <h2 class="section-title">🎮 Подделай код</h2>
+    <p class="game-desc">Лови <span class="green">зелёные образцы Джерома</span> — они проходят сканер. Избегай <span class="red">красных образцов Винсента</span> — каждый из них означает разоблачение.</p>
+    <div class="game-hud">
+      <div>Время: <span id="gameTime">30</span> с</div>
+      <div>Поймано: <span id="gameScore">0</span></div>
+      <div>Провалы: <span id="gameFails">0</span></div>
+    </div>
+    <div id="gameArea" class="game-area">
+      <div class="game-overlay" id="gameOverlay">
+        <button id="startGameBtn" class="btn">Начать сканирование</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- МЕДИА -->
+<section class="section media-section">
+  <h2 class="section-title">📸 Медиа из фильма</h2>
+  <p class="media-desc">Вставь свои ссылки на фото и видео — они появятся здесь.</p>
+
+  <div class="media-grid">
+    <div class="media-item">
+      <img src="" alt="Кадр 1" data-img="media1" />
+      <div class="img-placeholder">Ссылка на фото №1</div>
+    </div>
+    <div class="media-item">
+      <img src="" alt="Кадр 2" data-img="media2" />
+      <div class="img-placeholder">Ссылка на фото №2</div>
+    </div>
+    <div class="media-item">
+      <img src="" alt="Кадр 3" data-img="media3" />
+      <div class="img-placeholder">Ссылка на фото №3</div>
+    </div>
+    <div class="media-item">
+      <img src="" alt="Кадр 4" data-img="media4" />
+      <div class="img-placeholder">Ссылка на фото №4</div>
+    </div>
+  </div>
+
+  <div class="video-block">
+    <h3 class="video-title">🎬 Трейлер / видео</h3>
+    <div class="video-frame">
+  <video id="localVideo" controls poster="images/media1.jpg">
+    <source src="video_27531a08c08436c9fc41653dd511eae2_480_20261119111712.mp4" type="video/mp4" />
+    Твой браузер не поддерживает видео.
+  </video>
+</div>
+<p class="video-hint">Файл: <code>video/trailer.mp4</code></p>
+  </div>
+</section>
+
+  <!-- КОММЕНТАРИИ -->
+  <section class="section comments-section">
+    <h2 class="section-title">💬 Твоё мнение</h2>
+    <form id="commentForm" class="comment-form">
+      <input type="text" id="commentName" placeholder="Твоё имя" maxlength="30" required />
+      <textarea id="commentText" placeholder="Что ты думаешь о фильме?" maxlength="300" required></textarea>
+      <button type="submit" class="btn">Отправить</button>
+    </form>
+    <div id="commentsList" class="comments-list"></div>
+  </section>
+
+  <footer class="footer">
+    <p>Фан-сайт по фильму «Гаттака» (1997). Не является официальным ресурсом.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
